@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.umutkina.a1000mostcommonwords.MenuActivity">
+
+    <TextView
+        android:id="@+id/tv_words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorAccent"
+        android:padding="12dp"
+        android:text="@string/kelime_ezber"
+        android:textColor="@color/White" />
+
+    <com.google.android.gms.ads.AdView
+
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+    <View
+        android:id="@+id/iv_temp"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"></View>
+
+    <TextView
+        android:id="@+id/tv_questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/colorAccent"
+        android:padding="12dp"
+        android:text="@string/kendini_test_et"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/tv_saved_words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/colorAccent"
+        android:padding="12dp"
+        android:text="@string/kay_tl_kelimeler"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/tv_saved_words_questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/colorAccent"
+        android:padding="12dp"
+        android:text="@string/saved_words_question"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/tv_hikayeler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/colorAccent"
+        android:padding="12dp"
+        android:text="@string/hikayeler"
+        android:textColor="@color/White" />
+
+</LinearLayout>

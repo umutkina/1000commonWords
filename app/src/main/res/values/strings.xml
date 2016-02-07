@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">İngilizce Kelime Ezber</string>
+    <string name="base_url">http://tureng.com/tr/turkce-ingilizce/</string>
+    <string name="check_net_connection">internet bağlantınızı kontol  ediniz</string>
+    <string name="correct_count">"Doğru sayısı : "</string>
+    <string name="wrong_count">"\nYanlış Sayısı : "</string>
+    <string name="ezberledim">ezberledim</string>
+    <string name="kelime_ezber">Kelime Ezber</string>
+    <string name="kendini_test_et">Kendini Test Et</string>
+    <string name="kay_tl_kelimeler">Kayıtlı Kelimeler</string>
+    <string name="warnings">Uyarı</string>
+    <string name="delete_item_warning">Bu kelimeyi ezberlediğiniz kelimelerden çıkarmak istediğinize emin misiniz?</string>
+    <string name="saved_words_question">Kayıtlı kelime soruları</string>
+    <string name="must_be_20">Ezberlediğiniz kelime sayısı 20\'ye eşit ya da büyük olmalıdır</string>
+    <string name="hikayeler">Hikayeler</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4443948134096736/8698367203</string>
+    <string name="articles_dialog">Anlamını bilmediğiniz kelimeyi kopyalayarak Türkçe karşılığını ekranda görebilirsiniz</string>
+    <string name="words_list_dialog">Kelimenin ingilizce-Türkce çeviri geçişleri için ekrana dokunmanız yeterlidir</string>
+    <string name="ing_words">"#ingilizce Kelime: "</string>
+    <string name="mean">"\nAnlamı : "</string>
+    <string name="share">Paylaş</string>
+    <string name="saved_words_dialog">Yanlış cevaplanan kelime ezberlediğiniz kelimelerden çıkartılacaktır</string>
+
+
+</resources>
